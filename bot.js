@@ -8,7 +8,7 @@ client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Desert Bot- Scrpit By ┃ Clyde`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Bot By ┃ KillerFox ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Bot By ┃ Clyde ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(` Bot By Clyde | $help `,"http://twitch.tv/S-F")
@@ -75,9 +75,9 @@ client.on('guildMemberAdd', member => {
  if (message.content === "$help-js-bc") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**$help-js-bc-1 ➺',` ⦁ جميع البرودكاست  ⦁**`)
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -86,12 +86,12 @@ client.on('guildMemberAdd', member => {
  if (message.content === "$help-js-bc-1") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**❖ برودكاست + للكل + مطور ➺',` ⦁  https://hastebin.com/bipanureqa.js ⦁**`)
 	  .addField('**❖ برودكاست + للكل + غير مطور ➺',` ⦁  https://hastebin.com/kuvoruzowe.cs ⦁**`)
 	  .addField('**❖  برودكاست + للأونلاين + مع منشن + غير مطور ➺',` ⦁  https://hastebin.com/zujuvupali.php ⦁**`)
 	  .addField('**❖ برودكاست + للكل + مع منشن + غير مطور ➺',` ⦁  https://hastebin.com/zojokunayo.php ⦁**`)
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -345,11 +345,11 @@ client.on('ready', () => {
  if (message.content === "$help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─══════ {✯FoxBot✯} ══════─')
+      .setFooter('─══════ {✯HeroMCBot✯} ══════─')
 	  .addField('**➺ $help1 ➺**', `** ⦁ أوامر عامة ⦁ **`)
 	  .addField('**➺ $help2 ➺**', `** ⦁قائمة الاكواد ⦁ **`)
 	  .addField('**➺ $help3 ➺**', `⦁ Soon ⦁`)
-      .setFooter('─══════ {✯FoxBot✯} ══════─')
+      .setFooter('─══════ {✯HeroMCBot✯} ══════─')
   message.author.send({embed});
   }
 });
@@ -357,10 +357,10 @@ client.on('ready', () => {
  if (message.content === "$help2") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**$help-js ➺** **⦁ قائمة أكواد الجافا سكربت ⦁**')
 	  .addField('**$help-soon ➺**')
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -369,11 +369,11 @@ client.on('ready', () => {
  if (message.content === "$help-js") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**$help-js-source ➺ ⦁ قسم السورس الأساسي ⦁**')
 	  .addField('**$help-js-bc ➺ ⦁ قسم أكواد البرودكاست ⦁**')
 	  .addField('**$help-js-welcome ➺ ⦁ قسم أكواد الترحيب ⦁**')
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -382,11 +382,11 @@ client.on('ready', () => {
  if (message.content === "$help-js-source") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**$help-js-source-1 ➺ ⦁ السورس الأساسي⦁**')
 	  .addField('**$help-js-source-2 ➺ ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت ⦁**')
 	  .addField('**$help-js-source-3 ➺ ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت ⦁**') 
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -394,9 +394,9 @@ client.on('ready', () => {
  if (message.content === "$help-js-source-1") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('**❖ كود السورس الأساسي https://hastebin.com/xumiferaru.coffeescript**')
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -404,9 +404,9 @@ client.on('ready', () => {
  if (message.content === "$help-js-source-2") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('** ❖ السورس الأساسي مع الستريمنق ومعلومات البوت https://hastebin.com/idotifusid.coffeescript **')
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -414,9 +414,9 @@ client.on('ready', () => {
  if (message.content === "$help-js-source-3") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
 	  .addField('** ❖ السورس الأساسي مع الواتشينق https://hastebin.com/jivizupafi.coffeescript **')
-      .setFooter('─═════════ {✯FoxBot✯} ════════════─')
+      .setFooter('─═════════ {✯HeroMCBot✯} ════════════─')
   message.author.send({embed});
   }
 });
@@ -429,7 +429,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === '$by') {
-              message.channel.send('***:heart:*** **Server By KillerFox** ***:heart:***');
+              message.channel.send('***:heart:*** **Server By Clyde** ***:heart:***');
               message.channel.sendFile("./photoshop.PNG");
                
 
